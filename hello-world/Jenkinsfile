@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis Cron') {
             steps {
-                echo 'Run the static analysis to the code123' 
+                echo 'Run the static analysis to the code' 
             }
         }
         stage('Compile') {
